@@ -1,0 +1,75 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color:white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: auto; /* Allow scrolling */
+}
+
+/* Styling for the App container */
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(230, 224, 224);
+  border-radius: 8px;
+  box-shadow: 0 0px 30px rgba(187, 77, 77, 0.1);
+  max-width: 90%;
+  width: 100%;
+}
+
+/* Title styling */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Grid for event cards */
+.event-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+/* Event card styling */
+.event-card {
+  background: rgb(15, 176, 230);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow:0 0 30px rgb(15, 15, 15);
+}
+
+.event-card h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.event-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #ef1a48;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.event-card a:hover {
+  background-color: #ed1010;
+}
+
+@media (max-width: 600px) {
+  .event-cards {
+    grid-template-columns: 1fr;
+  }
+}
