@@ -1,6 +1,6 @@
 import React from 'react';
 import EventCard from './EventCard';
-import './App.css';  // Assuming you have a CSS file for styling
+import './App.css'; // Import the App.css file
 
 const App = () => {
   // Define an array of events with details
