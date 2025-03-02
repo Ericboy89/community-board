@@ -10,7 +10,7 @@ const EventCard = (props) => {
       <p>{date}</p>
       <p>{time}</p>
       <p>{location}</p>
-      <a href={ticketLink} target="_blank" rel="noopener noreferrer">
+      <a href={ticketLink}rel="noopener noreferrer">
         Buy Tickets
       </a>
     </div>
