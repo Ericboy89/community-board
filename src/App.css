@@ -62,10 +62,13 @@ h1 {
   color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 4px;
+  transform: 0.3s ease; 
 }
 
 .event-card a:hover {
-  background-color: #ed1010;
+  background-color: #100f0f;
+  transform: scale(1.1);
+  
 }
 
 @media (max-width: 600px) {
